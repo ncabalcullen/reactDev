@@ -1,7 +1,7 @@
 import React from 'react'
 import { useCounter } from '../hooks/UseCounter'
 
-export const CounterApp = () => {
+export const CounterComponent = () => {
     const { counter, increment, decrement, reset } = useCounter(0)
 
     return (
